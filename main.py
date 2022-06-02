@@ -41,8 +41,8 @@ def run_agents():
     sum_draw = 0
     sum_lose = 0
     
-    for q in range(0,200):
-        args.seed = q
+    for q in range(0, 1):
+        args.seed = 1234
         print(q)
         env = TaxiEnv()
 
